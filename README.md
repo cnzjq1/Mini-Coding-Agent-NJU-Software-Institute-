@@ -37,4 +37,4 @@ python main.py "你训练一个CNN模型用于手写体数字识别" --workspace
 
 环境变量包括：`OPENAI_API_KEY`（密钥）、`OPENAI_BASE_URL`（接口地址）、`OPENAI_MODEL`（模型）、`OPENAI_MAX_RETRIES`（重试次数）、`OPENAI_TIMEOUT`（API 超时）；`AGENT_MAX_STEPS`（循环上限）、`AGENT_COMMAND_TIMEOUT`（命令超时）、`AGENT_MAX_HISTORY_CHARS`（压缩阈值）、`AGENT_CONTEXT_KEEP_RECENT_CHARS`（近期历史保留量）、`AGENT_MAX_TOOL_OUTPUT_CHARS`（工具输出上限）、`AGENT_REQUIREMENT_MAX_CHARS`（需求文本上限）、`AGENT_TERMINAL_VISUALS`（设为 `0` 关闭仪表盘）。命令行中的地址、模型和步数优先。
 
-Github Link: https://github.com/cnzjq1/A-coding-agent-NJU-Software-Institute-
+Github Link: https://github.com/cnzjq1/Mini-Coding-Agent-NJU-Software-Institute-
