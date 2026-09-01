@@ -13,14 +13,13 @@ Agent 首先把项目要求拆成若干独立功能指标，并为每项指定�
 ## 安装与运行
 
 ```powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 $env:OPENAI_API_KEY="你的密钥"
 python main.py "你训练一个CNN模型用于手写体数字识别" --workspace generated_project
 ```
 
-也可执行 `python main.py --requirement-file 需求.pdf --workspace generated_project`。支持 PDF、DOCX、TXT、Markdown；扫描 PDF 需先 OCR。
+也可执行 `python main.py --requirement-file 需求.pdf `。支持 PDF、DOCX、TXT、Markdown。也可直接运行程序，按提示输入要求在默认设置下运行。
+
 
 ## 命令行参数
 
@@ -38,4 +37,4 @@ python main.py "你训练一个CNN模型用于手写体数字识别" --workspace
 
 环境变量包括：`OPENAI_API_KEY`（密钥）、`OPENAI_BASE_URL`（接口地址）、`OPENAI_MODEL`（模型）、`OPENAI_MAX_RETRIES`（重试次数）、`OPENAI_TIMEOUT`（API 超时）；`AGENT_MAX_STEPS`（循环上限）、`AGENT_COMMAND_TIMEOUT`（命令超时）、`AGENT_MAX_HISTORY_CHARS`（压缩阈值）、`AGENT_CONTEXT_KEEP_RECENT_CHARS`（近期历史保留量）、`AGENT_MAX_TOOL_OUTPUT_CHARS`（工具输出上限）、`AGENT_REQUIREMENT_MAX_CHARS`（需求文本上限）、`AGENT_TERMINAL_VISUALS`（设为 `0` 关闭仪表盘）。命令行中的地址、模型和步数优先。
 
-Github Link:https://github.com/cnzjq1/A-coding-agent-NJU-Software-Institute-
+Github Link: https://github.com/cnzjq1/A-coding-agent-NJU-Software-Institute-
