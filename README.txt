@@ -16,4 +16,4 @@ python main.py "你训练一个CNN模型用于手写体数字识别"
 
 也可执行 `python main.py --requirement-file 需求.pdf `。支持 PDF、DOCX、TXT、Markdown。也可直接运行程序，按提示输入要求在默认设置下运行。
 
-Github Link: https://github.com/cnzjq1/Mini-Coding-Agent-NJU-Software-Institute-
+Github Link: https://github.com/cnzjq1/Mini-Coding-Agent
